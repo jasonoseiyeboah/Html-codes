@@ -1,0 +1,228 @@
+body {
+  background:rgb(203, 235, 250);
+  font-family:arial normal;
+  /* background-image:url("background.jpg"); */
+  background-size:cover;
+  background-repeat:repeat-x;
+  background-position:top;
+  background-attachment:fixed;
+}   
+
+h1 {
+  color:blue;
+  text-transform:uppercase;
+  font-family:verdana;
+  text-align:left;
+}
+
+h2 {
+  color:red;
+  text-align:center;
+  font-size:25px;
+  text-transform:uppercase;
+}
+
+h3 {
+  color:red;
+  text-align:center;
+  font-size:14px;
+  text-transform:uppercase;
+}
+
+h4 {
+  text-align:center;
+  color:red;
+  text-transform:uppercase;
+  font-size:15px;
+}
+
+h5  { 
+  text-align:center;
+}
+
+p  {
+  color:black;
+  padding:9px;  
+} 
+
+ol  {  
+  background-color:#E5DAB3; 
+  list-style-type:upper-roman;
+}
+
+li  {
+  background-color:none;
+  list-style-position:inside;
+  margin: 1em;;
+}
+
+dl  {
+  background-color:#5abae0;
+  border:2px solid ;
+}   
+
+dt  {  
+  background-color:none;
+  text-transform:uppercase;
+}
+
+dd  {
+  background-color:none;
+  margin-top:1em;
+} 
+
+table {
+  background-color:none;
+  font-size:12.6px;
+  width:1350px;
+}  
+
+td {
+  color:black;
+  background-color:#E5DAB3;  
+}
+
+th {
+  color:dodgerblue;
+  border:2px solid dodgerblue;
+  text-transform:uppercase;
+  font-size: medium;
+}
+
+video  { 
+  float:left;
+}
+
+a  {
+  color:blue;
+}
+
+form {
+  border:0.01em solid black;
+  background-color:white;
+  width:400px;
+  border-style:dotted;
+  border-radius:10px;
+  padding:10px;
+}
+
+.title {
+  color:dodgerblue;
+  text-align:left;
+  font-size:20px;
+}
+
+.note {
+  color:red;
+}
+
+.number {
+  text-align:center;
+  color:red;
+}
+
+.h1two {
+  color:red;
+  text-align:left;
+  text-transform:uppercase;
+  font-family:arial normal;
+}
+
+.sl {
+  color:dodgerblue;
+}
+
+.ip {
+  color:dodgerblue;
+}
+
+.de {
+  color:red;
+}
+
+.snl {
+  background-color:powderblue;
+  border:2px solid powderblue;
+  color:blue;
+}
+
+.snltable {
+  border:2px solid dodgerblue;
+  background-color:cornsilk;
+  width:10px;
+}
+
+.specialdata {
+  font-size:11px;
+}
+
+.appdownload {
+  color:green;
+  text-align:center;
+}
+
+.specialh2 {
+  color:red;
+  text-align:left;
+  font-size:27px;
+  text-transform:uppercase;
+  font-family:verdana;
+  border:3px solid red;
+  border-radius:7.5px;
+}
+
+.displayp {
+  color:black;
+  text-transform:uppercase;
+  font-size:20px;
+  background-color:powderblue;
+  list-style-type:circle;
+}
+
+.bestp {
+  background-color:black;
+  border-color:none;
+  color:white;
+  text-align:left;
+}
+
+.sorp {
+  text-align:none;
+  color:white;
+  background-color:black;
+  text-transform:uppercase;
+}
+
+.bestli {
+  color:blue;
+  background-color:black;
+  height:none;
+  margin-bottom:-22px;
+}
+
+.bestsli {
+  background-color:black;
+  color:blue;
+}
+
+.search {
+  opacity: 85%;
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 400px;
+} 
+
+/* .sth1 {
+  background-color: aliceblue;
+  margin-right: -100px;
+  margin-bottom: px;
+  font-size: 30px;
+} */
+
+.why {
+  font-size: 16px;
+}
+
+p::first-letter {
+  text-transform: uppercase;
+}
